@@ -1,6 +1,4 @@
-# Access the Web Application
-https://conibaer.github.io/MobilityInLaharRiskAreasAroundMtRainier/index.html
-
+# [Access the Web Application Here](https://conibaer.github.io/MobilityInLaharRiskAreasAroundMtRainier/index.html)
 
 ## Mt. Rainier, 2020
 ![20200724_184443 copy](https://user-images.githubusercontent.com/91756808/145699807-ab020390-e51a-4e67-8689-e4f0a378d09d.jpg)
