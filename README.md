@@ -7,7 +7,9 @@ Photo taken by me, Chase B Barrows
 Mt. St. Helens 2020
 Photo taken by me, Chase B Barrows
 
-
+## Me and Friend on top of Mt.Rainier Summit, June of 2021
+![image](https://user-images.githubusercontent.com/91756808/145699901-d283d99b-866f-4c32-bc80-bfaf96dd5bef.png)
+Photo Taken by 3 member of climbing party
 
 # Lahar Risk around Mt. Rainier
 This map shows the risk plane if a lahar event were to occur emanating from Mt.Rainier. Specifically, the risk zone resulting from a ‘case 1’ event. Defined by Hoblit et al(1998), case 1 events have occurred on 500 to 1000 year intervals for the last 5600 years and represent common but extreme Rainier lahar events with the yearly probability of occurrence between .1 and .2 percent. While an eruption event like that of Mt. St. Helens in 1980 by Rainier would most definitely result in a large lahar flow through its lower valleys and drainages. However geological research since the 1980s has shown that not all lahars from Rainier are directly linked to large eruption events. During the months leading up to the St.Helens eruption massive areas were evacuated for safety.  An eruption pattern like that of St.Helens by Mt. Rainier would no doubt be an extremely devastating event, but nonetheless would allow for vast warning time for the communities in the path of the mountain's destructive lahars. 
