@@ -9,7 +9,7 @@ Photo taken by me, Chase B Barrows
 Mt. St. Helens 2020
 Photo taken by me, Chase B Barrows
 
-## Me and Friend on top of Mt.Rainier Summit, June of 2021
+## Me(Right) and Friend on top of Mt.Rainier Summit, June of 2021
 ![image](https://user-images.githubusercontent.com/91756808/145699901-d283d99b-866f-4c32-bc80-bfaf96dd5bef.png)
 Photo Taken by 3rd member of climbing party
 
