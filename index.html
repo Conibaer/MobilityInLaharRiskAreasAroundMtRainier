@@ -4,18 +4,25 @@
     <meta charset="utf-8" />
     <title>Lahar Risk Interactive Map</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
     <!-- Mapbox GL JS  https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js -->
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"> </script>
     <link
       href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css"
       rel="stylesheet"
     />
+    
     <!-- Mapbox Assembly  -->
     <link
       href="https://api.mapbox.com/mapbox-assembly/v1.3.0/assembly.min.css"
       rel="stylesheet"
     />
     <script src="https://api.mapbox.com/mapbox-assembly/v1.3.0/assembly.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
     <style>
       body {
         margin: 0;
@@ -70,28 +77,13 @@
         width: 50px;
         background-color: #555
       }
-    /* Map Legend End*/
-
 
     </style>
   </head>
 
   <body>
     <div id="map"></div>
-    
-
-     <!-- Legend HTML 
-    <div class='map-overlay bg-gray-faint round' id='legend'>
-      <h2 class="txt-m txt-bold mb6 py12 align-center">Legend</h2>
-      <span class='legend-key' style='background-color: blue; border-radius: 50%;'></span>
-      <span>WA State Public Schools (K-12)</span>
-      <h2></h2>
-      <span class='legend-key' style='background-color: rgba(255, 0, 0, 0.6);;'></span>
-      <span>Areas At Risk from Lahars</span>
-    </div>
-      -->
-
-    <div class="absolute fl my24 mx24 py24 px24 bg-gray-faint round">
+    <div class="absolute fl my24 mx24 py20 px24 bg-gray-faint round">
       <form id="params">
         <h4 class="txt-m txt-bold mb6">Choose a travel mode:</h4>
         <div class="mb12 mr12 toggle-group align-center">
@@ -124,12 +116,32 @@
           </label>
         </div>
       </form>
-      <h5 class="txt-m txt-bold mb6 py12 align-center">Legend</h5>
-      <span class='legend-key' style='background-color: blue; border-radius: 50%;'></span>
-      <span>WA State Public Schools (K-12)</span>
-      <h2></h2>
-      <span class='legend-key' style='background-color: rgba(255, 0, 0, 0.6);;'></span>
-      <span>Areas At Risk from Lahars</span>
+      <h5 class="txt-m txt-bold align-center">Legend</h5>
+        <span class='legend-key' style='background-color: blue; border-radius: 50%;'></span>
+        <span>WA State Public Schools (K-12)<br></span>
+        <span class='legend-key' style='background-color: rgba(255, 0, 0, 0.6);;'></span>
+        <span>Areas At Risk from Lahars</span>
+        <div class='align-center'>
+          <h></h>
+          <button type="button" class="btn btn-info my24 txt-bold- bg-gray txt-bold border" style="border-radius: 20px; border-color: white;" data-toggle="modal" data-target="#myModal">About Map</button>
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Lahar Risk and Transportation</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Risk to life and property by <a href="https://en.wikipedia.org/wiki/Lahar">lahar flows</a> emanating from Mt. Rainier are geographical reality to low lying communities.
+                     Click around on the map and adjust travel parameters to explore the transportation times required to reach saftey outside of the lahar risk zones in case of an emergency. 
+                     Points shown are WA State public schools within the risk zone. Hover over to view names.
+                  </p>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
     </div>
 
     <script>
