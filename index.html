@@ -133,8 +133,8 @@
                 </div>
                 <div class="modal-body">
                   <p>Risk to life and property by <a href="https://en.wikipedia.org/wiki/Lahar">lahar flows</a> emanating from Mt. Rainier are geographical reality to low lying communities.
-                     Click around on the map and adjust travel parameters on the upper left hand pannel to explore the transportation times required to reach saftey outside of the lahar risk zones in the case of an emergency. 
-                     Points shown are WA State public schools within the risk zone. Hover over to view names.
+                     Click around on the map and adjust travel parameters on the upper left hand pannel to explore the transportation times required to exit lahar risk zones in the case of an emergency. 
+                     Points of interest shown are WA State public schools within the risk zone. Hover over them to view their names.
                   </p>
                 </div>
               </div>
@@ -321,5 +321,12 @@
         getIso();
       });
     </script>
+
+    <script type="text/javascript">
+      $(window).on('load', function() {
+          $('#myModal').modal('show');
+      });
+    </script>
+
   </body>
 </html>
