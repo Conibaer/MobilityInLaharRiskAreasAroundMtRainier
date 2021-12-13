@@ -32,9 +32,10 @@
     /* Map Legend */
     
       .map-overlay {
-          position: absolute;
+          position: fixed ;
           bottom: 0;
           left: 0;
+          /* height: 10vh; */
           background: white;
           border-style: round;
           border-width: 1px;
@@ -79,7 +80,7 @@
     <div id="map"></div>
     
 
-    
+     <!-- Legend HTML 
     <div class='map-overlay bg-gray-faint round' id='legend'>
       <h2 class="txt-m txt-bold mb6 py12 align-center">Legend</h2>
       <span class='legend-key' style='background-color: blue; border-radius: 50%;'></span>
@@ -88,7 +89,7 @@
       <span class='legend-key' style='background-color: rgba(255, 0, 0, 0.6);;'></span>
       <span>Areas At Risk from Lahars</span>
     </div>
-
+      -->
 
     <div class="absolute fl my24 mx24 py24 px24 bg-gray-faint round">
       <form id="params">
@@ -123,6 +124,12 @@
           </label>
         </div>
       </form>
+      <h5 class="txt-m txt-bold mb6 py12 align-center">Legend</h5>
+      <span class='legend-key' style='background-color: blue; border-radius: 50%;'></span>
+      <span>WA State Public Schools (K-12)</span>
+      <h2></h2>
+      <span class='legend-key' style='background-color: rgba(255, 0, 0, 0.6);;'></span>
+      <span>Areas At Risk from Lahars</span>
     </div>
 
     <script>
@@ -176,7 +183,8 @@
                     'circle-stroke-width': 1.5,
                     'circle-color': 'blue',
                     'circle-stroke-color': 'white'
-                }
+                } 
+                
             });
         });
       }
